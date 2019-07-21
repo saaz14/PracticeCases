@@ -1,0 +1,19 @@
+package ourFirstJavaPrograme;
+
+import java.util.Scanner;
+
+public class GallonToLiters {
+
+	public static void main(String[] args) {
+		
+Scanner input = new Scanner(System.in);
+
+System.out.println("Enter Gallons ");
+double Gallon = input.nextInt();
+
+Gallon = (Gallon*3.78);
+System.out.println("Liters= " + Gallon);
+
+	}
+
+}
