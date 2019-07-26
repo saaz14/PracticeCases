@@ -9,7 +9,7 @@ public class GallonToLiters {
 Scanner input = new Scanner(System.in);
 
 System.out.println("Enter Gallons ");
-double Gallon = input.nextInt();
+double Gallon = input.nextDouble();
 
 Gallon = (Gallon*3.78);
 System.out.println("Liters= " + Gallon);

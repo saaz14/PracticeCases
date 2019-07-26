@@ -6,9 +6,8 @@ public class IfElseStatements {
 
 	public static void main(String[] args) {
 		
-int MarksObtained, PassingMarks;
-
-PassingMarks = 33;
+int MarksObtained;
+int PassingMarks = 33;
 
 Scanner in = new Scanner(System.in);
 
