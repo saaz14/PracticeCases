@@ -1,4 +1,4 @@
-package ourFirstJavaPrograme;
+package PremitiveDataTypes;
 
 public class VariableRanges {
 
@@ -49,8 +49,27 @@ public class VariableRanges {
 		System.out.println("");
 		System.out.println("");
 		
-		System.out.println("Long Variable ranges are " + Long.MIN_VALUE + " - " + Long.MAX_VALUE);
+		System.out.println("Long Variable ranges are " + Long.MIN_VALUE + " to " + Long.MAX_VALUE);
+		System.out.println("Byte Variable ranges are " + Byte.MIN_VALUE + " to " + Byte.MAX_VALUE);
+		System.out.println("Short Variable ranges are " + Short.MIN_VALUE + " to " + Short.MAX_VALUE);
+		System.out.println("Integer Variable ranges are " + Integer.MIN_VALUE + " to " + Integer.MAX_VALUE);
+		System.out.println("Char Variable ranges are " + Character.MIN_VALUE + " to " + Character.MAX_VALUE);
+		
 		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
+		
+		//Class Practice for variable packages.
+		int a = 21321;
+		int b = 6555466;
+		int maxvalue = Integer.max(a, b);
+		
+		System.out.println(maxvalue);
+		
+		String strInteger = "554605622";
+		int IntNum = Integer.parseInt(strInteger);
+		System.out.println(IntNum);
 	
 
 	}
