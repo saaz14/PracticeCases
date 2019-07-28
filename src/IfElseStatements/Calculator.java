@@ -1,11 +1,13 @@
-package PremitiveDataTypes;
+package IfElseStatements;
 
 import java.util.Scanner;
 
 public class Calculator {
 
 	public static void main(String[] args) {
-	Scanner calculator = new Scanner(System.in);
+		
+		
+Scanner calculator = new Scanner(System.in);
 		
 		System.out.println("Enter first number: ");
 
@@ -26,19 +28,20 @@ public class Calculator {
 		if (choice == 1) {
 			System.out.println(first + second);
 		}
-		if (choice == 2) {
+		else if (choice == 2) {
 			System.out.println(first / second);
 		}
-		if (choice == 3) {
+		else if (choice == 3) {
 			System.out.println(first * second);
 		}
-		if (choice == 4) {
+		else if (choice == 4) {
 			System.out.println(first - second);
 			
 			calculator.close();
 		}
 		
 		
+
 
 	}
 

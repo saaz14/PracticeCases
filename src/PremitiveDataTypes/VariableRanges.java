@@ -70,7 +70,7 @@ public class VariableRanges {
 		String strInteger = "554605622";
 		int IntNum = Integer.parseInt(strInteger);
 		System.out.println(IntNum);
-		//testing
+		
 	
 
 	}
