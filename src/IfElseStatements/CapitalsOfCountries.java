@@ -9,7 +9,7 @@ public class CapitalsOfCountries {
 		Scanner input = new Scanner(System.in);
 		
 		
-		System.out.println("Enter country name");
+		System.out.println("Please enter country name. (1st Alphabet has to be capital)");
 		String Country = input.nextLine();
 		String A = "USA";
 		String B = "Pakistan";
