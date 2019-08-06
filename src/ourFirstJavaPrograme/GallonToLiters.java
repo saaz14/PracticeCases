@@ -14,6 +14,7 @@ double Gallon = input.nextDouble();
 Gallon = (Gallon*3.78);
 System.out.println("Liters= " + Gallon);
 
+input.close();
 	}
 
 }

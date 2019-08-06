@@ -61,6 +61,8 @@ public class Quiz {
 		}
 		else {
 			System.out.println("INCORRECT");
+			
+			quiz.close();
 		}
 		
 

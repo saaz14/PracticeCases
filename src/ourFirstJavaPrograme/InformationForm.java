@@ -37,6 +37,8 @@ public class InformationForm {
 		 System.out.println("Patient's Height: " + Height);
 		 System.out.println("Blood Test performed within last 6 months: " + BloodTest);
 		 
+		 
+		 InputField.close();
 	}
 
 }

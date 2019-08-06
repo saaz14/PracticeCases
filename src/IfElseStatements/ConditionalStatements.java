@@ -6,7 +6,7 @@ public class ConditionalStatements {
 		
 		int a = 6;
 		int b = 5;
-		boolean c = a==b;
+//		boolean c = a==b;
 		
 //		if(c) {
 //			System.out.println("This is correct");

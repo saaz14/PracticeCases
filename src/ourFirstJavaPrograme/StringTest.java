@@ -19,6 +19,8 @@ public class StringTest {
 
 		System.out.println("Your current Car is " + Make + " " + Model + " " + year);
 
+		
+		InputField.close();
 	}
 
 }

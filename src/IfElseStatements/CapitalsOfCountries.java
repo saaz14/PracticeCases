@@ -56,6 +56,8 @@ public class CapitalsOfCountries {
 		else {
 			System.out.println("Unfortunately this country is not updated yet in system");
 		}
+		
+		input.close();
 
 	}
 

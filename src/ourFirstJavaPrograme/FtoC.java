@@ -13,6 +13,8 @@ int Temperature = input.nextInt();
 
 Temperature = ((Temperature - 32)*5)/9;
 System.out.println("Temperature in Celsius = " + Temperature);
+
+input.close();
 	}
 
 }

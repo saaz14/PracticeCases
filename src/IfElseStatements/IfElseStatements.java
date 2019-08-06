@@ -21,10 +21,10 @@ public class IfElseStatements {
 			else {
 				System.out.println("Unfortunately, You did not Pass the Test. Better Luck Next Time.");
 			}
-
-				}
-
 			
+			inc.close();
+
+				}		
 
 	}
 

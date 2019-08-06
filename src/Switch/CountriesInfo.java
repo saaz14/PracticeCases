@@ -177,6 +177,8 @@ public class CountriesInfo {
 			System.out.println("Invalid selection.");
 		
 		}
+		
+		info.close();
 
 	}
 
