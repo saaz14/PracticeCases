@@ -26,8 +26,8 @@ public class DoWhileLoop {
 		
 		int valueB = 30;
 		do {
-			System.out.println("Value of B is: " + valueB); //it will print 108
-			++valueB; // it will add 1 to value of B which was 108 and now assign 109 to valueB
+			System.out.println("Value of B is: " + valueB);
+			++valueB;
 			if (valueB == 50) {
 				System.out.println("It will print the value of B which is: " + valueB + "and then continue with the loop since we are commanding CONTINUE");
 				continue;
