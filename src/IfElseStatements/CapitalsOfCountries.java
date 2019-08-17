@@ -16,8 +16,9 @@ public class CapitalsOfCountries {
         input = new Scanner(System.in);
        
        
-        System.out.println("Please enter country name. (1st Alphabet has to be capital)");
+        System.out.println("Please enter country name:");
         String Country = input.nextLine();
+        
         String A = "USA";
         String B = "Pakistan";
         String C = "England";
@@ -32,70 +33,70 @@ public class CapitalsOfCountries {
         String L = "Australia";
    
                
-        if (Country.equals(A)) {
-        System.out.println("Capital city of " + Country + " is " + "Washington DC");
+        if (Country.equalsIgnoreCase(A)) {
+        System.out.println("\nCapital city of " + Country + " is " + "Washington DC");
         anotherstatement();
         }
-        else if (Country.equals(B)) {
-            System.out.println("Capital city of " + Country + " is " + "Islamabad");
+        else if (Country.equalsIgnoreCase(B)) {
+            System.out.println("\nCapital city of " + Country + " is " + "Islamabad");
             anotherstatement();
         }
-        else if (Country.equals(C)) {
-            System.out.println("Capital city of " + Country + " is " + "London");
+        else if (Country.equalsIgnoreCase(C)) {
+            System.out.println("\nCapital city of " + Country + " is " + "London");
             anotherstatement();
         }
-        else if (Country.equals(D)) {
-            System.out.println("Capital city of " + Country + " is " + "Paris");
+        else if (Country.equalsIgnoreCase(D)) {
+            System.out.println("\nCapital city of " + Country + " is " + "Paris");
             anotherstatement();
         }
-        else if (Country.equals(E)) {
-            System.out.println("Capital city of " + Country + " is " + "Beiging");
+        else if (Country.equalsIgnoreCase(E)) {
+            System.out.println("\nCapital city of " + Country + " is " + "Beiging");
             anotherstatement();
         }
-        else if (Country.equals(F)) {
-            System.out.println("Capital city of " + Country + " is " + "Tokyo");
+        else if (Country.equalsIgnoreCase(F)) {
+            System.out.println("\nCapital city of " + Country + " is " + "Tokyo");
             anotherstatement();
         }
-        else if (Country.equals(G)) {
-            System.out.println("Capital city of " + Country + " is " + "Delhi");
+        else if (Country.equalsIgnoreCase(G)) {
+            System.out.println("\nCapital city of " + Country + " is " + "Delhi");
             anotherstatement();
         }
-        else if (Country.equals(H)) {
-            System.out.println("Capital city of " + Country + " is " + "Urumqi");
+        else if (Country.equalsIgnoreCase(H)) {
+            System.out.println("\nCapital city of " + Country + " is " + "Urumqi");
             anotherstatement();
         }
-        else if (Country.equals(I)) {
-            System.out.println("Capital city of " + Country + " is " + "Riyyadh");
+        else if (Country.equalsIgnoreCase(I)) {
+            System.out.println("\nCapital city of " + Country + " is " + "Riyyadh");
             anotherstatement();
         }
-        else if (Country.equals(J)) {
-            System.out.println("Capital city of " + Country + " is " + "Tehran");
+        else if (Country.equalsIgnoreCase(J)) {
+            System.out.println("\nCapital city of " + Country + " is " + "Tehran");
             anotherstatement();
         }
-        else if (Country.equals(K)) {
-            System.out.println("Capital city of " + Country + " is " + "Istanbul");
+        else if (Country.equalsIgnoreCase(K)) {
+            System.out.println("\nCapital city of " + Country + " is " + "Istanbul");
             anotherstatement();
         }
-            else if (Country.equals(L)) {
-            System.out.println("Capital city of " + Country + " is " + "Canberra");
+            else if (Country.equalsIgnoreCase(L)) {
+            System.out.println("\nCapital city of " + Country + " is " + "Canberra");
             anotherstatement();
         }
         else {
-            System.out.println("Unfortunately this country is not updated yet in system");
+            System.out.println("\nUnfortunately this country is not updated yet in system");
             anotherstatement();
         }
  
     }
  
 public static void anotherstatement () {
-    System.out.println("Do you want to continue?");
+    System.out.println("\nDo you want to continue?");
     System.out.println("Press 1 for Yes \nPress 2 for No");
     int anotherstatement = input.nextInt();
     if ( anotherstatement == 1) {
         statements();
     }
     else {
-        System.out.println("<<< Good Bye >>>");
+        System.out.println("\n<<< Good Bye >>>");
     }
 }
 

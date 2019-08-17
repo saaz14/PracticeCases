@@ -19,7 +19,7 @@ public class SumAverageRunningInt {
 		 
 		 System.out.println("Sum of 1 to 100 is using for loop is : " + sum);
 		 
-		 average = sum/upperbound;
+		 average = (double)sum/(double)upperbound;
 		 
 		 System.out.println("Average is : " + average);
 		 

@@ -10,6 +10,7 @@ public class StringClass {
 
 		System.out.println("Total nunber of caharactors in this sentence are: " + str1.length());
 		System.out.println("First Charactor of this sentence is: " + str1.charAt(0));
+	//	System.out.println("Middle Charactor of this sentence is: " + str1.);
 		System.out.println("Last Charactor of this sentence is: " + str1.charAt(length - 1)); //Since Charactors starts from 0 and continues, we have to minus 1 from length to display the last chractor
 
 	
