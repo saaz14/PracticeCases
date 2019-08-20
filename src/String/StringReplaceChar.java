@@ -12,6 +12,7 @@ public class StringReplaceChar {
 		String str6 = str3.toUpperCase();
 		
 		System.out.println(str3 + "\n" + str4 + "\n" + str5 + "\n" + str6);
+		
 
 	}
 
