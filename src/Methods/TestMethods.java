@@ -2,7 +2,7 @@ package Methods;
 
 public class TestMethods {
 	
-
+//Overloaded method. Same variable name with different parameters. In this case myMethod is variable with different pameters.
 	static void myMethod() {
 		System.out.println("Hello World");
 	}
