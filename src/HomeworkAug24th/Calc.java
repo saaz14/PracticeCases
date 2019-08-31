@@ -797,6 +797,32 @@ public class Calc {
 	}
 
 //----------------------------------------------------------
+	
+	public static void tables() {
+		calculator = new Scanner(System.in);
+		System.out.print("Enter a Number: ");
+		int number = calculator.nextInt();
+
+		System.out.println("Table of " + number + " is\n");
+		for (int i = 1; i <= 10; i++) {
+			int result = number * i;
+			System.out.println(number + " × " + i + " = " + result);
+		}
+		tablequestion();
+	}
+		
+//-----------------------------------------------------------
+	
+	public static void tablequestion() {
+		calculator = new Scanner(System.in);
+		System.out.println("\nDo you want to try another table?\n\nPress 1 for YES\nPress 2 for NO");
+		int choice = calculator.nextInt();
+		if (choice == 1) {
+			tables();
+		} else {
+			MainMenu();
+		}
+	}
 
 	public static void unitask() {
 
@@ -878,7 +904,8 @@ public class Calc {
 	public static void MainMenu() {
 		System.out.println("Press 1 for \"Basic Calculator\"");
 		System.out.println("Press 2 for \"Unit Converter\"");
-		System.out.println("Press 3 to \"Exit\"");
+		System.out.println("Press 3 for \"Tables\"");
+		System.out.println("Press 4 to \"Exit\"");
 		calculator = new Scanner(System.in);
 		int menu = calculator.nextInt();
 
@@ -890,6 +917,8 @@ public class Calc {
 			Converter();
 			break;
 		case 3:
+			tables();
+		case 4:
 			System.out.println("<<<<< Good Bye >>>>>");
 			break;
 		default:
@@ -933,6 +962,7 @@ public class Calc {
 			break;
 		case 2:
 			System.out.println("<<<<< Good Bye >>>>>");
+			System.exit(0);
 			break;
 		default:
 			System.out.println("Invalid Selection. Please try again !");
